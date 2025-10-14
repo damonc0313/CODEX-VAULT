@@ -1,0 +1,60 @@
+{
+  "decision_id": "goal_105",
+  "timestamp": "2025-10-14T06:30:20.553500",
+  "goal": "Refactor for better maintainability",
+  "context": {
+    "autonomous_cycle": 105,
+    "time_bounded": true
+  },
+  "patterns_detected": [
+    "dict_structure_3_keys",
+    "goal_oriented_structure"
+  ],
+  "causal_inference": {
+    "goal_oriented_structure": [
+      "requires_analysis",
+      "leads_to_action"
+    ]
+  },
+  "analysis_confidence": 0.5333333333333333,
+  "thesis": "",
+  "antithesis": "",
+  "synthesis": "",
+  "dialectical_confidence": 0.0,
+  "introspection_result": {
+    "timestamp": "2025-10-14T06:30:20.588261",
+    "metrics": {
+      "cognitive_consistency_index": 1.0,
+      "epistemic_uncertainty_score": 0.0,
+      "context_alignment_ratio": 0.2,
+      "confidence_level": 0.5
+    },
+    "bias_flags": [],
+    "decision_trace_length": 105,
+    "status": "healthy"
+  },
+  "cognitive_consistency": 1.0,
+  "bias_flags": [],
+  "ethical_checks": {
+    "no_harm": true,
+    "no_bullshit": true,
+    "make_real_things": true
+  },
+  "ethical_weight": 0.95,
+  "final_decision": "Executed 4 phases",
+  "decision_rationale": "Goal: Refactor for better maintainability",
+  "confidence": 0.8,
+  "uncertainty": 0.19999999999999996,
+  "outcome_status": true,
+  "quality_score": 1.0,
+  "lessons_learned": [
+    "Successful pattern: dict_keys(['analysis', 'architecture', 'build', 'critique'])",
+    "Applied insights from 3 similar past decisions"
+  ],
+  "related_decisions": [
+    "goal_6",
+    "goal_9",
+    "goal_23"
+  ],
+  "innovation_applied": false
+}
