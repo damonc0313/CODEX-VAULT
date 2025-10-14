@@ -247,10 +247,19 @@ class RigorEnforcer:
         # Check return annotation
         has_return = func.returns is not None
         
-        # Check argument annotations
+        # Check argument annotations (excluding 'self' and 'cls')
+        args_to_check = [
+            arg for arg in func.args.args
+            if arg.arg not in ('self', 'cls')
+        ]
+        
+        # If no args besides self/cls, just check return
+        if not args_to_check:
+            return has_return
+            
         args_annotated = all(
             arg.annotation is not None
-            for arg in func.args.args
+            for arg in args_to_check
         )
         
         return has_return and args_annotated

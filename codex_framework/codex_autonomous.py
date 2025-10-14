@@ -80,6 +80,11 @@ class CodexAutonomousFramework:
         self.logger.info("Initializing Chain of Thought Logger...")
         self.cot_logger = COTLogger()
         
+        # Initialize Unknown Unknown Detector
+        self.logger.info("Initializing Unknown Unknown Detector...")
+        from codex_framework.core import UnknownUnknownDetector
+        self.unknown_detector = UnknownUnknownDetector()
+        
         # Initialize agents
         self.logger.info("Initializing Cognitive Agents...")
         self.agents = {
