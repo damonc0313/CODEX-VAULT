@@ -5,6 +5,7 @@ from .metacognition import MetacognitiveReflector
 from .ethical_guardrails import EthicalGuardrails
 from .dialectical_engine import DialecticalEngine
 from .rigor_enforcer import RigorEnforcer
+from .cot_logger import COTLogger, ChainOfThought
 
 __all__ = [
     'CognitiveCore',
@@ -12,4 +13,6 @@ __all__ = [
     'EthicalGuardrails',
     'DialecticalEngine',
     'RigorEnforcer',
+    'COTLogger',
+    'ChainOfThought',
 ]

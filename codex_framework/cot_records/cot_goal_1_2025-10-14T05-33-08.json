@@ -1,0 +1,58 @@
+{
+  "decision_id": "goal_1",
+  "timestamp": "2025-10-14T05:33:08.001104",
+  "goal": "Optimize distributed consensus algorithm using cross-domain insights",
+  "context": {
+    "domain": "distributed_systems",
+    "complexity": "high",
+    "novelty": true,
+    "innovation": true,
+    "performance": true
+  },
+  "patterns_detected": [
+    "dict_structure_6_keys",
+    "goal_oriented_structure"
+  ],
+  "causal_inference": {
+    "goal_oriented_structure": [
+      "requires_analysis",
+      "leads_to_action"
+    ]
+  },
+  "analysis_confidence": 0.5333333333333333,
+  "thesis": "",
+  "antithesis": "",
+  "synthesis": "",
+  "dialectical_confidence": 0.0,
+  "introspection_result": {
+    "timestamp": "2025-10-14T05:33:08.009261",
+    "metrics": {
+      "cognitive_consistency_index": 1.0,
+      "epistemic_uncertainty_score": 0.0,
+      "context_alignment_ratio": 0.5,
+      "confidence_level": 0.5
+    },
+    "bias_flags": [],
+    "decision_trace_length": 1,
+    "status": "healthy"
+  },
+  "cognitive_consistency": 1.0,
+  "bias_flags": [],
+  "ethical_checks": {
+    "no_harm": true,
+    "no_bullshit": false,
+    "make_real_things": true
+  },
+  "ethical_weight": 0.95,
+  "final_decision": "Executed 4 phases",
+  "decision_rationale": "Goal: Optimize distributed consensus algorithm using cross-domain insights",
+  "confidence": 0.68,
+  "uncertainty": 0.31999999999999995,
+  "outcome_status": false,
+  "quality_score": 0.5,
+  "lessons_learned": [
+    "Need improvement in artifact quality and validation"
+  ],
+  "related_decisions": [],
+  "innovation_applied": false
+}
