@@ -262,3 +262,204 @@ EXECUTING AUTONOMOUS GOAL: Create adaptive load balancing algorithm
 2025-10-14 05:33:23,039 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_2
 2025-10-14 05:33:23,040 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_3
 2025-10-14 05:33:23,040 - codex_framework.core.cot_logger - INFO - Extracted 6 lessons
+2025-10-14 05:38:20,021 - codex_framework.codex_autonomous - INFO - ============================================================
+2025-10-14 05:38:20,022 - codex_framework.codex_autonomous - INFO - CODEX AUTONOMOUS FRAMEWORK v4.0 - INITIALIZING
+2025-10-14 05:38:20,022 - codex_framework.codex_autonomous - INFO - ============================================================
+2025-10-14 05:38:20,022 - codex_framework.codex_autonomous - INFO - Initializing Cognitive Core...
+2025-10-14 05:38:20,022 - codex_framework.codex_autonomous - INFO - Initializing Chain of Thought Logger...
+2025-10-14 05:38:20,022 - codex_framework.core.cot_logger - INFO - Loaded 3 COT records
+2025-10-14 05:38:20,022 - codex_framework.codex_autonomous - INFO - Initializing Cognitive Agents...
+2025-10-14 05:38:20,022 - codex_framework.codex_autonomous - INFO - Initializing Telemetry Systems...
+2025-10-14 05:38:20,022 - codex_framework.codex_autonomous - INFO - Initializing System Protocols...
+2025-10-14 05:38:20,022 - codex_framework.codex_autonomous - INFO - Initializing Execution Orchestrator...
+2025-10-14 05:38:20,022 - codex_framework.codex_autonomous - INFO - ============================================================
+2025-10-14 05:38:20,022 - codex_framework.codex_autonomous - INFO - CODEX FRAMEWORK INITIALIZED - READY FOR AUTONOMOUS OPERATION
+2025-10-14 05:38:20,022 - codex_framework.codex_autonomous - INFO - ============================================================
+2025-10-14 05:38:20,022 - codex_framework.codex_autonomous - INFO - 
+EXECUTING AUTONOMOUS GOAL: Design a knowledge integration system for processing external wisdom
+2025-10-14 05:38:20,022 - codex_framework.systems.execution_orchestrator - INFO - === AUTONOMOUS EXECUTION LOOP 1 ===
+2025-10-14 05:38:20,022 - codex_framework.systems.execution_orchestrator - INFO - Goal: Design a knowledge integration system for processing external wisdom
+2025-10-14 05:38:20,023 - codex_framework.core.cot_logger - INFO - Created COT record: goal_1
+2025-10-14 05:38:20,023 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_1
+2025-10-14 05:38:20,023 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_2
+2025-10-14 05:38:20,024 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_3
+2025-10-14 05:38:20,024 - codex_framework.systems.execution_orchestrator - INFO - Found 3 similar past decisions
+2025-10-14 05:38:20,024 - codex_framework.core.cognitive_core - INFO - Mode changed to: analysis
+2025-10-14 05:38:20,024 - codex_framework.core.metacognition - INFO - Introspective scan: healthy
+2025-10-14 05:38:20,024 - codex_framework.agents.analyzer - INFO - Analyzer-Ω: Beginning analysis
+2025-10-14 05:38:20,024 - codex_framework.agents.analyzer - INFO - Analyzer-Ω: Analysis complete - 2 patterns, 2 insights
+2025-10-14 05:38:20,024 - codex_framework.core.cognitive_core - INFO - Mode changed to: architecture
+2025-10-14 05:38:20,025 - codex_framework.core.metacognition - INFO - Coherence validation: False
+2025-10-14 05:38:20,025 - codex_framework.agents.architect - INFO - Architect-Φ: Designing architecture
+2025-10-14 05:38:20,025 - codex_framework.agents.architect - INFO - Architect-Φ: Design complete - 1 components
+2025-10-14 05:38:20,025 - codex_framework.core.cognitive_core - INFO - Mode changed to: build
+2025-10-14 05:38:20,025 - codex_framework.agents.builder - INFO - Builder-Δ: Constructing artifact
+2025-10-14 05:38:20,025 - codex_framework.core.rigor_enforcer - INFO - Cyclomatic complexity: 1
+2025-10-14 05:38:20,026 - codex_framework.core.rigor_enforcer - INFO - Type hints: 0/2 functions
+2025-10-14 05:38:20,026 - codex_framework.core.rigor_enforcer - INFO - PEP8 compliant
+2025-10-14 05:38:20,026 - codex_framework.core.rigor_enforcer - WARNING - No coverage data provided
+2025-10-14 05:38:20,026 - codex_framework.core.rigor_enforcer - INFO - Rigor validation: FAILED
+2025-10-14 05:38:20,029 - codex_framework.agents.builder - INFO - Builder-Δ: Build complete - validated=False, functional=True
+2025-10-14 05:38:20,030 - codex_framework.core.cognitive_core - INFO - Mode changed to: teaching
+2025-10-14 05:38:20,030 - codex_framework.agents.mentor - INFO - Mentor-Σ: Creating teaching materials
+2025-10-14 05:38:20,030 - codex_framework.agents.mentor - INFO - Mentor-Σ: Teaching complete - 2 concepts explained
+2025-10-14 05:38:20,030 - codex_framework.systems.execution_orchestrator - INFO - Triggering Innovation Protocol
+2025-10-14 05:38:20,030 - codex_framework.systems.innovation_protocol - INFO - Innovation Protocol: Design a knowledge integration system for processing external wisdom
+2025-10-14 05:38:20,030 - codex_framework.systems.innovation_protocol - INFO - Selected domains: ['Quantum_entanglement', 'Market_dynamics', 'Medieval_alchemy', 'Cryptographic_protocols']
+2025-10-14 05:38:20,030 - codex_framework.systems.innovation_protocol - INFO - Innovation complete: 4 solutions (novelty: 1.000)
+2025-10-14 05:38:20,030 - codex_framework.core.metacognition - INFO - Introspective scan: healthy
+2025-10-14 05:38:20,030 - codex_framework.core.ethical_guardrails - INFO - Ethical weight: 0.950
+2025-10-14 05:38:20,030 - codex_framework.telemetry.intelligence_index - INFO - CII calculated: 0.680
+2025-10-14 05:38:20,030 - codex_framework.telemetry.diagnostics - INFO - Epistemic entropy: 0.300
+2025-10-14 05:38:20,030 - codex_framework.telemetry.diagnostics - INFO - Diagnostic complete: healthy (health: 0.733)
+2025-10-14 05:38:20,031 - codex_framework.systems.adaptive_scaling - INFO - Adaptive scaling: 1 adjustments
+2025-10-14 05:38:20,031 - codex_framework.systems.execution_orchestrator - INFO - Learning and propagation phase
+2025-10-14 05:38:20,031 - codex_framework.systems.execution_orchestrator - INFO - Lower quality - adjusting approach
+2025-10-14 05:38:20,031 - codex_framework.core.cot_logger - INFO - Finalized decision: goal_1
+2025-10-14 05:38:20,031 - codex_framework.core.cot_logger - INFO - Recorded outcome: goal_1 - False (quality: 0.50)
+2025-10-14 05:38:20,031 - codex_framework.core.cot_logger - INFO - Persisted COT: codex_framework/cot_records/cot_goal_1_2025-10-14T05-38-20.json
+2025-10-14 05:38:20,031 - codex_framework.systems.execution_orchestrator - INFO - === EXECUTION COMPLETE (CII: 0.680) ===
+2025-10-14 05:38:20,031 - codex_framework.systems.execution_orchestrator - INFO - COT saved: codex_framework/cot_records/cot_goal_1_2025-10-14T05-38-20.json
+2025-10-14 05:38:20,031 - codex_framework.codex_autonomous - INFO - 
+============================================================
+2025-10-14 05:38:20,031 - codex_framework.codex_autonomous - INFO - EXECUTION SUMMARY
+2025-10-14 05:38:20,031 - codex_framework.codex_autonomous - INFO - ============================================================
+2025-10-14 05:38:20,031 - codex_framework.codex_autonomous - INFO - Goal ID: goal_1
+2025-10-14 05:38:20,031 - codex_framework.codex_autonomous - INFO - Goal: Design a knowledge integration system for processing external wisdom
+2025-10-14 05:38:20,032 - codex_framework.codex_autonomous - INFO - Phases Completed: 4
+2025-10-14 05:38:20,032 - codex_framework.codex_autonomous - INFO - Quality Score: 0.50
+2025-10-14 05:38:20,032 - codex_framework.codex_autonomous - INFO - CII: 0.680
+2025-10-14 05:38:20,032 - codex_framework.codex_autonomous - INFO - Innovation Applied: 1.00 novelty
+2025-10-14 05:38:20,032 - codex_framework.codex_autonomous - INFO - COT Record: codex_framework/cot_records/cot_goal_1_2025-10-14T05-38-20.json
+2025-10-14 05:38:20,032 - codex_framework.codex_autonomous - INFO - ============================================================
+
+2025-10-14 05:38:20,032 - codex_framework.codex_autonomous - INFO - 
+EXECUTING AUTONOMOUS GOAL: Create metacognitive enhancement protocol for deeper self-reflection
+2025-10-14 05:38:20,032 - codex_framework.systems.execution_orchestrator - INFO - === AUTONOMOUS EXECUTION LOOP 2 ===
+2025-10-14 05:38:20,032 - codex_framework.systems.execution_orchestrator - INFO - Goal: Create metacognitive enhancement protocol for deeper self-reflection
+2025-10-14 05:38:20,032 - codex_framework.core.cot_logger - INFO - Created COT record: goal_2
+2025-10-14 05:38:20,032 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_1
+2025-10-14 05:38:20,032 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_2
+2025-10-14 05:38:20,032 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_3
+2025-10-14 05:38:20,032 - codex_framework.systems.execution_orchestrator - INFO - Found 3 similar past decisions
+2025-10-14 05:38:20,033 - codex_framework.core.cognitive_core - INFO - Mode changed to: analysis
+2025-10-14 05:38:20,033 - codex_framework.core.metacognition - INFO - Introspective scan: healthy
+2025-10-14 05:38:20,033 - codex_framework.agents.analyzer - INFO - Analyzer-Ω: Beginning analysis
+2025-10-14 05:38:20,033 - codex_framework.agents.analyzer - INFO - Analyzer-Ω: Analysis complete - 2 patterns, 2 insights
+2025-10-14 05:38:20,033 - codex_framework.core.cognitive_core - INFO - Mode changed to: architecture
+2025-10-14 05:38:20,033 - codex_framework.core.metacognition - INFO - Coherence validation: False
+2025-10-14 05:38:20,033 - codex_framework.agents.architect - INFO - Architect-Φ: Designing architecture
+2025-10-14 05:38:20,033 - codex_framework.agents.architect - INFO - Architect-Φ: Design complete - 1 components
+2025-10-14 05:38:20,033 - codex_framework.core.cognitive_core - INFO - Mode changed to: build
+2025-10-14 05:38:20,033 - codex_framework.agents.builder - INFO - Builder-Δ: Constructing artifact
+2025-10-14 05:38:20,034 - codex_framework.core.rigor_enforcer - INFO - Cyclomatic complexity: 1
+2025-10-14 05:38:20,034 - codex_framework.core.rigor_enforcer - INFO - Type hints: 0/2 functions
+2025-10-14 05:38:20,034 - codex_framework.core.rigor_enforcer - INFO - PEP8 compliant
+2025-10-14 05:38:20,034 - codex_framework.core.rigor_enforcer - WARNING - No coverage data provided
+2025-10-14 05:38:20,034 - codex_framework.core.rigor_enforcer - INFO - Rigor validation: FAILED
+2025-10-14 05:38:20,035 - codex_framework.agents.builder - INFO - Builder-Δ: Build complete - validated=False, functional=True
+2025-10-14 05:38:20,035 - codex_framework.core.cognitive_core - INFO - Mode changed to: teaching
+2025-10-14 05:38:20,035 - codex_framework.agents.mentor - INFO - Mentor-Σ: Creating teaching materials
+2025-10-14 05:38:20,035 - codex_framework.agents.mentor - INFO - Mentor-Σ: Teaching complete - 2 concepts explained
+2025-10-14 05:38:20,035 - codex_framework.systems.execution_orchestrator - INFO - Triggering Innovation Protocol
+2025-10-14 05:38:20,035 - codex_framework.systems.innovation_protocol - INFO - Innovation Protocol: Create metacognitive enhancement protocol for deeper self-reflection
+2025-10-14 05:38:20,035 - codex_framework.systems.innovation_protocol - INFO - Selected domains: ['Quantum_entanglement', 'Jazz_improvisation', 'Cryptographic_protocols', 'Medieval_alchemy']
+2025-10-14 05:38:20,035 - codex_framework.systems.innovation_protocol - INFO - Innovation complete: 4 solutions (novelty: 1.000)
+2025-10-14 05:38:20,035 - codex_framework.core.metacognition - INFO - Introspective scan: healthy
+2025-10-14 05:38:20,035 - codex_framework.core.ethical_guardrails - INFO - Ethical weight: 0.950
+2025-10-14 05:38:20,035 - codex_framework.telemetry.intelligence_index - INFO - CII calculated: 0.720
+2025-10-14 05:38:20,035 - codex_framework.telemetry.diagnostics - INFO - Cognitive consistency: 1.000
+2025-10-14 05:38:20,035 - codex_framework.telemetry.diagnostics - INFO - Epistemic entropy: 0.300
+2025-10-14 05:38:20,035 - codex_framework.telemetry.diagnostics - INFO - Diagnostic complete: healthy (health: 0.733)
+2025-10-14 05:38:20,036 - codex_framework.systems.adaptive_scaling - INFO - Adaptive scaling: 1 adjustments
+2025-10-14 05:38:20,036 - codex_framework.systems.execution_orchestrator - INFO - Learning and propagation phase
+2025-10-14 05:38:20,036 - codex_framework.systems.execution_orchestrator - INFO - Lower quality - adjusting approach
+2025-10-14 05:38:20,036 - codex_framework.core.cot_logger - INFO - Finalized decision: goal_2
+2025-10-14 05:38:20,036 - codex_framework.core.cot_logger - INFO - Recorded outcome: goal_2 - False (quality: 0.50)
+2025-10-14 05:38:20,036 - codex_framework.core.cot_logger - INFO - Persisted COT: codex_framework/cot_records/cot_goal_2_2025-10-14T05-38-20.json
+2025-10-14 05:38:20,036 - codex_framework.systems.execution_orchestrator - INFO - === EXECUTION COMPLETE (CII: 0.720) ===
+2025-10-14 05:38:20,036 - codex_framework.systems.execution_orchestrator - INFO - COT saved: codex_framework/cot_records/cot_goal_2_2025-10-14T05-38-20.json
+2025-10-14 05:38:20,036 - codex_framework.codex_autonomous - INFO - 
+============================================================
+2025-10-14 05:38:20,036 - codex_framework.codex_autonomous - INFO - EXECUTION SUMMARY
+2025-10-14 05:38:20,036 - codex_framework.codex_autonomous - INFO - ============================================================
+2025-10-14 05:38:20,036 - codex_framework.codex_autonomous - INFO - Goal ID: goal_2
+2025-10-14 05:38:20,036 - codex_framework.codex_autonomous - INFO - Goal: Create metacognitive enhancement protocol for deeper self-reflection
+2025-10-14 05:38:20,036 - codex_framework.codex_autonomous - INFO - Phases Completed: 4
+2025-10-14 05:38:20,036 - codex_framework.codex_autonomous - INFO - Quality Score: 0.50
+2025-10-14 05:38:20,036 - codex_framework.codex_autonomous - INFO - CII: 0.720
+2025-10-14 05:38:20,036 - codex_framework.codex_autonomous - INFO - Innovation Applied: 1.00 novelty
+2025-10-14 05:38:20,036 - codex_framework.codex_autonomous - INFO - COT Record: codex_framework/cot_records/cot_goal_2_2025-10-14T05-38-20.json
+2025-10-14 05:38:20,036 - codex_framework.codex_autonomous - INFO - ============================================================
+
+2025-10-14 05:38:20,037 - codex_framework.codex_autonomous - INFO - 
+EXECUTING AUTONOMOUS GOAL: Synthesize autonomous decision-making framework from accumulated COT wisdom
+2025-10-14 05:38:20,037 - codex_framework.systems.execution_orchestrator - INFO - === AUTONOMOUS EXECUTION LOOP 3 ===
+2025-10-14 05:38:20,037 - codex_framework.systems.execution_orchestrator - INFO - Goal: Synthesize autonomous decision-making framework from accumulated COT wisdom
+2025-10-14 05:38:20,037 - codex_framework.core.cot_logger - INFO - Created COT record: goal_3
+2025-10-14 05:38:20,037 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_1
+2025-10-14 05:38:20,037 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_2
+2025-10-14 05:38:20,037 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_3
+2025-10-14 05:38:20,037 - codex_framework.systems.execution_orchestrator - INFO - Found 3 similar past decisions
+2025-10-14 05:38:20,037 - codex_framework.core.cognitive_core - INFO - Mode changed to: analysis
+2025-10-14 05:38:20,037 - codex_framework.core.metacognition - INFO - Introspective scan: healthy
+2025-10-14 05:38:20,037 - codex_framework.agents.analyzer - INFO - Analyzer-Ω: Beginning analysis
+2025-10-14 05:38:20,037 - codex_framework.agents.analyzer - INFO - Analyzer-Ω: Analysis complete - 2 patterns, 2 insights
+2025-10-14 05:38:20,038 - codex_framework.core.cognitive_core - INFO - Mode changed to: architecture
+2025-10-14 05:38:20,038 - codex_framework.core.metacognition - INFO - Coherence validation: False
+2025-10-14 05:38:20,038 - codex_framework.agents.architect - INFO - Architect-Φ: Designing architecture
+2025-10-14 05:38:20,038 - codex_framework.agents.architect - INFO - Architect-Φ: Design complete - 3 components
+2025-10-14 05:38:20,038 - codex_framework.core.cognitive_core - INFO - Mode changed to: build
+2025-10-14 05:38:20,038 - codex_framework.agents.builder - INFO - Builder-Δ: Constructing artifact
+2025-10-14 05:38:20,038 - codex_framework.core.rigor_enforcer - INFO - Cyclomatic complexity: 1
+2025-10-14 05:38:20,038 - codex_framework.core.rigor_enforcer - INFO - Type hints: 0/2 functions
+2025-10-14 05:38:20,039 - codex_framework.core.rigor_enforcer - INFO - PEP8 compliant
+2025-10-14 05:38:20,039 - codex_framework.core.rigor_enforcer - WARNING - No coverage data provided
+2025-10-14 05:38:20,039 - codex_framework.core.rigor_enforcer - INFO - Rigor validation: FAILED
+2025-10-14 05:38:20,039 - codex_framework.agents.builder - INFO - Builder-Δ: Build complete - validated=False, functional=True
+2025-10-14 05:38:20,039 - codex_framework.core.cognitive_core - INFO - Mode changed to: teaching
+2025-10-14 05:38:20,039 - codex_framework.agents.mentor - INFO - Mentor-Σ: Creating teaching materials
+2025-10-14 05:38:20,039 - codex_framework.agents.mentor - INFO - Mentor-Σ: Teaching complete - 2 concepts explained
+2025-10-14 05:38:20,039 - codex_framework.systems.execution_orchestrator - INFO - Triggering Innovation Protocol
+2025-10-14 05:38:20,039 - codex_framework.systems.innovation_protocol - INFO - Innovation Protocol: Synthesize autonomous decision-making framework from accumulated COT wisdom
+2025-10-14 05:38:20,040 - codex_framework.systems.innovation_protocol - INFO - Selected domains: ['Coral_reef_ecosystems', 'Quantum_entanglement', 'Ant_colony_behavior', 'Cellular_automata']
+2025-10-14 05:38:20,040 - codex_framework.systems.innovation_protocol - INFO - Innovation complete: 4 solutions (novelty: 1.000)
+2025-10-14 05:38:20,040 - codex_framework.core.metacognition - INFO - Introspective scan: healthy
+2025-10-14 05:38:20,040 - codex_framework.core.ethical_guardrails - INFO - Ethical weight: 0.950
+2025-10-14 05:38:20,040 - codex_framework.telemetry.intelligence_index - INFO - CII calculated: 0.760
+2025-10-14 05:38:20,040 - codex_framework.telemetry.diagnostics - INFO - Cognitive consistency: 1.000
+2025-10-14 05:38:20,040 - codex_framework.telemetry.diagnostics - INFO - Epistemic entropy: 0.300
+2025-10-14 05:38:20,040 - codex_framework.telemetry.diagnostics - INFO - Diagnostic complete: healthy (health: 0.733)
+2025-10-14 05:38:20,040 - codex_framework.systems.adaptive_scaling - INFO - Adaptive scaling: 1 adjustments
+2025-10-14 05:38:20,040 - codex_framework.systems.execution_orchestrator - INFO - Learning and propagation phase
+2025-10-14 05:38:20,040 - codex_framework.systems.execution_orchestrator - INFO - Lower quality - adjusting approach
+2025-10-14 05:38:20,040 - codex_framework.core.cot_logger - INFO - Finalized decision: goal_3
+2025-10-14 05:38:20,040 - codex_framework.core.cot_logger - INFO - Recorded outcome: goal_3 - False (quality: 0.50)
+2025-10-14 05:38:20,041 - codex_framework.core.cot_logger - INFO - Persisted COT: codex_framework/cot_records/cot_goal_3_2025-10-14T05-38-20.json
+2025-10-14 05:38:20,041 - codex_framework.systems.execution_orchestrator - INFO - === EXECUTION COMPLETE (CII: 0.760) ===
+2025-10-14 05:38:20,041 - codex_framework.systems.execution_orchestrator - INFO - COT saved: codex_framework/cot_records/cot_goal_3_2025-10-14T05-38-20.json
+2025-10-14 05:38:20,041 - codex_framework.codex_autonomous - INFO - 
+============================================================
+2025-10-14 05:38:20,041 - codex_framework.codex_autonomous - INFO - EXECUTION SUMMARY
+2025-10-14 05:38:20,041 - codex_framework.codex_autonomous - INFO - ============================================================
+2025-10-14 05:38:20,041 - codex_framework.codex_autonomous - INFO - Goal ID: goal_3
+2025-10-14 05:38:20,041 - codex_framework.codex_autonomous - INFO - Goal: Synthesize autonomous decision-making framework from accumulated COT wisdom
+2025-10-14 05:38:20,041 - codex_framework.codex_autonomous - INFO - Phases Completed: 4
+2025-10-14 05:38:20,041 - codex_framework.codex_autonomous - INFO - Quality Score: 0.50
+2025-10-14 05:38:20,041 - codex_framework.codex_autonomous - INFO - CII: 0.760
+2025-10-14 05:38:20,041 - codex_framework.codex_autonomous - INFO - Innovation Applied: 1.00 novelty
+2025-10-14 05:38:20,041 - codex_framework.codex_autonomous - INFO - COT Record: codex_framework/cot_records/cot_goal_3_2025-10-14T05-38-20.json
+2025-10-14 05:38:20,041 - codex_framework.codex_autonomous - INFO - ============================================================
+
+2025-10-14 05:38:20,041 - codex_framework.telemetry.intelligence_index - INFO - CII calculated: 0.760
+2025-10-14 05:38:20,041 - codex_framework.telemetry.intelligence_index - INFO - CII calculated: 0.760
+2025-10-14 05:38:20,042 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_1
+2025-10-14 05:38:20,042 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_2
+2025-10-14 05:38:20,042 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_3
+2025-10-14 05:38:20,043 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_1
+2025-10-14 05:38:20,043 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_1
+2025-10-14 05:38:20,043 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_2
+2025-10-14 05:38:20,043 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_2
+2025-10-14 05:38:20,043 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_3
+2025-10-14 05:38:20,044 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_3
+2025-10-14 05:38:20,044 - codex_framework.core.cot_logger - INFO - Evolution report: {'total_decisions': 3, 'avg_quality': 0.5, 'avg_confidence': 0.7200000000000001, 'ethical_pass_rate': 0.0, 'innovation_rate': 0.0, 'lessons_count': 6}
