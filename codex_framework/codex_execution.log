@@ -463,3 +463,32 @@ EXECUTING AUTONOMOUS GOAL: Synthesize autonomous decision-making framework from 
 2025-10-14 05:38:20,043 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_3
 2025-10-14 05:38:20,044 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_3
 2025-10-14 05:38:20,044 - codex_framework.core.cot_logger - INFO - Evolution report: {'total_decisions': 3, 'avg_quality': 0.5, 'avg_confidence': 0.7200000000000001, 'ethical_pass_rate': 0.0, 'innovation_rate': 0.0, 'lessons_count': 6}
+2025-10-14 05:39:10,717 - codex_framework.codex_autonomous - INFO - ============================================================
+2025-10-14 05:39:10,717 - codex_framework.codex_autonomous - INFO - CODEX AUTONOMOUS FRAMEWORK v4.0 - INITIALIZING
+2025-10-14 05:39:10,717 - codex_framework.codex_autonomous - INFO - ============================================================
+2025-10-14 05:39:10,717 - codex_framework.codex_autonomous - INFO - Initializing Cognitive Core...
+2025-10-14 05:39:10,717 - codex_framework.codex_autonomous - INFO - Initializing Chain of Thought Logger...
+2025-10-14 05:39:10,717 - codex_framework.core.cot_logger - INFO - Loaded 3 COT records
+2025-10-14 05:39:10,717 - codex_framework.codex_autonomous - INFO - Initializing Cognitive Agents...
+2025-10-14 05:39:10,717 - codex_framework.codex_autonomous - INFO - Initializing Telemetry Systems...
+2025-10-14 05:39:10,718 - codex_framework.codex_autonomous - INFO - Initializing System Protocols...
+2025-10-14 05:39:10,718 - codex_framework.codex_autonomous - INFO - Initializing Execution Orchestrator...
+2025-10-14 05:39:10,718 - codex_framework.codex_autonomous - INFO - ============================================================
+2025-10-14 05:39:10,718 - codex_framework.codex_autonomous - INFO - CODEX FRAMEWORK INITIALIZED - READY FOR AUTONOMOUS OPERATION
+2025-10-14 05:39:10,718 - codex_framework.codex_autonomous - INFO - ============================================================
+2025-10-14 05:39:10,718 - codex_framework.telemetry.intelligence_index - INFO - CII calculated: 0.500
+2025-10-14 05:39:10,718 - codex_framework.telemetry.intelligence_index - WARNING - CII 0.500 below threshold 0.6
+2025-10-14 05:39:10,718 - codex_framework.telemetry.intelligence_index - INFO - Adaptive scaling: 1 adjustments
+2025-10-14 05:39:10,718 - codex_framework.telemetry.intelligence_index - INFO - CII calculated: 0.500
+2025-10-14 05:39:10,718 - codex_framework.telemetry.intelligence_index - WARNING - CII 0.500 below threshold 0.6
+2025-10-14 05:39:10,718 - codex_framework.telemetry.intelligence_index - INFO - Adaptive scaling: 1 adjustments
+2025-10-14 05:39:10,718 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_1
+2025-10-14 05:39:10,719 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_2
+2025-10-14 05:39:10,719 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_3
+2025-10-14 05:39:10,719 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_1
+2025-10-14 05:39:10,719 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_1
+2025-10-14 05:39:10,719 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_2
+2025-10-14 05:39:10,719 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_2
+2025-10-14 05:39:10,720 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_3
+2025-10-14 05:39:10,720 - codex_framework.core.cot_logger - INFO - Loaded COT: goal_3
+2025-10-14 05:39:10,720 - codex_framework.core.cot_logger - INFO - Evolution report: {'total_decisions': 3, 'avg_quality': 0.5, 'avg_confidence': 0.7200000000000001, 'ethical_pass_rate': 0.0, 'innovation_rate': 0.0, 'lessons_count': 6}
