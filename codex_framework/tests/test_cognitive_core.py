@@ -86,12 +86,30 @@ def test_func(x: int) -> Dict[str, int]:
     """Test function."""
     return {"result": x}
 '''
-        
+
         result = self.core.validate_artifact(good_code)
-        
+
         assert 'rigor_passed' in result
         assert 'ethical_passed' in result
-        
+
+    def test_validate_artifact_without_coverage_data(self) -> None:
+        """Rigor should pass when coverage data is unavailable."""
+        good_code = '''
+from typing import Dict
+
+def test_func(x: int) -> Dict[str, int]:
+    """Test function."""
+    return {"result": x}
+'''
+
+        result = self.core.validate_artifact(good_code)
+
+        assert result['rigor_passed'] is True
+        assert any(
+            'coverage' in recommendation.lower()
+            for recommendation in result['recommendations']
+        )
+
     def test_validate_artifact_syntax_error(self) -> None:
         """Test artifact validation with syntax error."""
         bad_code = "def broken( invalid python"
