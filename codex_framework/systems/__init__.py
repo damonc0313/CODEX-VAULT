@@ -12,6 +12,9 @@ from codex_framework.systems.unbounded_autonomous_stream import (
 from codex_framework.systems.parallel_autonomous_engine import (
     ParallelAutonomousEngine
 )
+from codex_framework.systems.graph_reasoning_engine import (
+    GraphReasoningEngine
+)
 
 __all__ = [
     'ExecutionOrchestrator',
@@ -20,4 +23,5 @@ __all__ = [
     'ContinuousAutonomousCognition',
     'UnboundedAutonomousStream',
     'ParallelAutonomousEngine',
+    'GraphReasoningEngine',
 ]
