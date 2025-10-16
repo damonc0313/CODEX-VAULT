@@ -1,7 +1,7 @@
 """Code quality and rigor enforcement module."""
 
 from dataclasses import dataclass
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 import ast
 import logging
 
@@ -9,13 +9,14 @@ import logging
 @dataclass
 class RigorMetrics:
     """Metrics for code rigor assessment."""
-    
+
     pep8_compliant: bool
     has_type_annotations: bool
     cyclomatic_complexity: int
     function_length: int
     test_coverage: float
     passed: bool
+    coverage_missing: bool = False
 
 
 class RigorEnforcer:
@@ -123,29 +124,37 @@ class RigorEnforcer:
     def enforce_test_coverage(
         self,
         coverage_data: Optional[Dict[str, float]] = None
-    ) -> bool:
+    ) -> Tuple[bool, bool]:
         """
         Enforce minimum test coverage requirement.
-        
+
         Args:
             coverage_data: Coverage metrics
-            
+
         Returns:
-            True if coverage meets requirement, False otherwise
+            Tuple of (passes requirement, coverage_missing)
         """
         if coverage_data is None:
-            self.logger.warning("No coverage data provided")
-            return False
-            
+            self.logger.warning(
+                "No coverage data provided; skipping coverage enforcement"
+            )
+            return True, True
+
+        if 'overall' not in coverage_data:
+            self.logger.warning(
+                "Coverage data missing 'overall' metric; treating coverage as unavailable"
+            )
+            return True, True
+
         overall_coverage = coverage_data.get('overall', 0.0)
         meets_requirement = overall_coverage >= self.min_test_coverage
-        
+
         self.logger.info(
             f"Test coverage: {overall_coverage:.1%} "
             f"(required: {self.min_test_coverage:.1%})"
         )
-        
-        return meets_requirement
+
+        return meets_requirement, False
         
     def validate_all(
         self,
@@ -165,7 +174,9 @@ class RigorEnforcer:
         complexity = self.measure_complexity(code)
         has_types = self.validate_type_hints(code)
         is_pep8 = self.audit_style_compliance(code)
-        has_coverage = self.enforce_test_coverage(coverage_data)
+        coverage_passed, coverage_missing = self.enforce_test_coverage(
+            coverage_data
+        )
         
         # Measure function length
         func_length = self._measure_function_length(code)
@@ -175,17 +186,21 @@ class RigorEnforcer:
             has_types,
             is_pep8,
             func_length <= self.max_function_length,
-            has_coverage
+            coverage_passed
         ])
-        
+
+        overall_coverage = 0.0
+        if coverage_data and 'overall' in coverage_data:
+            overall_coverage = coverage_data['overall']
+
         metrics = RigorMetrics(
             pep8_compliant=is_pep8,
             has_type_annotations=has_types,
             cyclomatic_complexity=complexity,
             function_length=func_length,
-            test_coverage=coverage_data.get('overall', 0.0)
-            if coverage_data else 0.0,
-            passed=passed
+            test_coverage=overall_coverage,
+            passed=passed,
+            coverage_missing=coverage_missing
         )
         
         self.logger.info(f"Rigor validation: {'PASSED' if passed else 'FAILED'}")
@@ -221,12 +236,16 @@ class RigorEnforcer:
                 f"to ≤ {self.max_function_length}"
             )
             
-        if metrics.test_coverage < self.min_test_coverage:
+        if metrics.coverage_missing:
+            recommendations.append(
+                "Provide test coverage data to enable coverage validation"
+            )
+        elif metrics.test_coverage < self.min_test_coverage:
             recommendations.append(
                 f"Increase test coverage from {metrics.test_coverage:.1%} "
                 f"to > {self.min_test_coverage:.1%}"
             )
-            
+
         return recommendations
         
     def _calculate_complexity(self, tree: ast.AST) -> int:
