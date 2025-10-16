@@ -48,10 +48,19 @@ class TestCognitiveCore:
             proposition="Test",
             context={}
         )
-        
+
         assert result is not None
         # Should handle gracefully
         assert 'decision' in result
+
+    def test_dialectical_confidence_bounded_by_evidence_weight(self) -> None:
+        """Weak evidence should not produce near-certain synthesis confidence."""
+        engine = self.core.dialectics
+        thesis = engine.generate_argument_for("Sparse proposition", {})
+        antithesis = engine.generate_argument_against("Sparse proposition", {})
+        synthesis = engine.reconcile(thesis, antithesis)
+
+        assert synthesis.confidence < 0.3
         
     def test_process_decision_high_quality(self) -> None:
         """Test decision with high-quality context."""
