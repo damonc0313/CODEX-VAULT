@@ -104,9 +104,20 @@ class CognitiveCore:
         rigor_metrics = self.rigor.validate_all(code)
         
         # Ethical validation
+        structural_quality = all([
+            rigor_metrics.cyclomatic_complexity <= self.rigor.max_complexity,
+            rigor_metrics.has_type_annotations,
+            rigor_metrics.pep8_compliant,
+            rigor_metrics.function_length <= self.rigor.max_function_length,
+        ])
+
+        ethical_confidence = 0.9 if rigor_metrics.passed else (
+            0.7 if structural_quality else 0.3
+        )
+
         ethical_valid = self.ethics.validate_all_principles(
             output=code,
-            confidence=0.9 if rigor_metrics.passed else 0.3,
+            confidence=ethical_confidence,
             artifact_path=artifact_path
         )
         
