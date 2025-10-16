@@ -113,7 +113,7 @@ def test_func(x: int) -> Dict[str, int]:
     def test_validate_artifact_syntax_error(self) -> None:
         """Test artifact validation with syntax error."""
         bad_code = "def broken( invalid python"
-        
+
         result = self.core.validate_artifact(bad_code)
         
         # Should handle gracefully, not crash
