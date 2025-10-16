@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "total_entries": 60,
+    "total_authors": 3,
+    "unique_capabilities": 58,
+    "duration_hours": 145.83333333333334,
+    "start_time": "2025-10-10T21:30:00+00:00",
+    "end_time": "2025-10-16T23:20:00+00:00",
+    "avg_confidence": 0.901896551724138
+  },
+  "growth_pattern": {
+    "pattern": "plateau",
+    "r_squared": 0.11621921598275613,
+    "growth_rate": 0.0,
+    "confidence": 0.046487686393102454,
+    "exponential_r2": 0.11550877419222164,
+    "linear_r2": 0.11621921598275613
+  },
+  "acceleration": {
+    "accelerating": 
