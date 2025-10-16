@@ -139,7 +139,10 @@ class DialecticalEngine:
 
             dominant_weight = max(thesis_weight, antithesis_weight)
             relative_strength = dominant_weight / total_weight
-            absolute_scale = min(dominant_weight, total_weight / 2.0, 1.0)
+            # Preserve the penalty for sparse evidence while still allowing
+            # decisive syntheses to exceed the confidence threshold when one
+            # side is strongly supported.
+            absolute_scale = min(dominant_weight, total_weight, 1.0)
             confidence = relative_strength * absolute_scale
 
         decision_trace = self._create_decision_trace(
