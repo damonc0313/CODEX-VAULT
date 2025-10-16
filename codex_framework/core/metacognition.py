@@ -1,7 +1,9 @@
 """Metacognitive reflection system for self-awareness and cognitive validation."""
 
+from __future__ import annotations
+
+import typing as t
 from dataclasses import dataclass
-from typing import Dict, List, Optional, Any
 import logging
 
 
@@ -34,7 +36,7 @@ class MetacognitiveReflector:
         self.decision_trace: List[Dict[str, Any]] = []
         self.bias_flags: List[str] = []
         
-    def perform_introspective_scan(self) -> Dict[str, Any]:
+    def perform_introspective_scan(self) -> dict[str, t.Any]:
         """
         Execute introspective analysis of current cognitive state.
         
@@ -51,7 +53,7 @@ class MetacognitiveReflector:
         self.logger.info(f"Introspective scan: {scan_result['status']}")
         return scan_result
         
-    def coherence_validation(self, context: Dict[str, Any]) -> bool:
+    def coherence_validation(self, context: dict[str, t.Any]) -> bool:
         """
         Validate coherence of reasoning with context.
         
@@ -76,7 +78,7 @@ class MetacognitiveReflector:
         self,
         decision: str,
         rationale: str
-    ) -> Dict[str, str]:
+    ) -> dict[str, str]:
         """
         Create transparent record of reasoning process.
         
@@ -96,7 +98,7 @@ class MetacognitiveReflector:
         self.decision_trace.append(record)
         return record
         
-    def ethical_self_audit(self) -> Dict[str, Any]:
+    def ethical_self_audit(self) -> dict[str, t.Any]:
         """
         Perform ethical self-audit of recent actions.
         
@@ -118,8 +120,8 @@ class MetacognitiveReflector:
         
     def detect_cognitive_biases(
         self,
-        decision_pattern: List[str]
-    ) -> List[str]:
+        decision_pattern: list[str]
+    ) -> list[str]:
         """
         Detect potential cognitive biases in decision patterns.
         
@@ -158,14 +160,14 @@ class MetacognitiveReflector:
                 self.metrics.confidence_level - 0.05
             )
             
-    def _calculate_alignment(self, context: Dict[str, Any]) -> float:
+    def _calculate_alignment(self, context: dict[str, t.Any]) -> float:
         """Calculate alignment score between context and state."""
         if not context:
             return 0.0
         # Simplified alignment calculation
         return min(1.0, len(context) / 10.0)
         
-    def _has_repetitive_pattern(self, pattern: List[str]) -> bool:
+    def _has_repetitive_pattern(self, pattern: list[str]) -> bool:
         """Check for repetitive patterns in decisions."""
         if len(pattern) < 3:
             return False

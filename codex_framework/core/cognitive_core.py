@@ -1,11 +1,20 @@
 """Central cognitive processing core."""
 
-from typing import Any, Dict, List, Optional
-from .metacognition import MetacognitiveReflector
-from .ethical_guardrails import EthicalGuardrails
-from .dialectical_engine import DialecticalEngine
-from .rigor_enforcer import RigorEnforcer
+from __future__ import annotations
+
+import typing as t
 import logging
+
+if t.TYPE_CHECKING:
+    from .metacognition import MetacognitiveReflector
+    from .ethical_guardrails import EthicalGuardrails
+    from .dialectical_engine import DialecticalEngine
+    from .rigor_enforcer import RigorEnforcer
+else:
+    from .metacognition import MetacognitiveReflector
+    from .ethical_guardrails import EthicalGuardrails
+    from .dialectical_engine import DialecticalEngine
+    from .rigor_enforcer import RigorEnforcer
 
 
 class CognitiveCore:
@@ -32,8 +41,8 @@ class CognitiveCore:
     def process_decision(
         self,
         proposition: str,
-        context: Dict[str, Any]
-    ) -> Dict[str, Any]:
+        context: dict[str, t.Any]
+    ) -> dict[str, t.Any]:
         """
         Process decision through full cognitive pipeline.
         
@@ -79,8 +88,8 @@ class CognitiveCore:
     def validate_artifact(
         self,
         code: str,
-        artifact_path: Optional[str] = None
-    ) -> Dict[str, Any]:
+        artifact_path: str | None = None
+    ) -> dict[str, t.Any]:
         """
         Validate code artifact through rigor and ethical checks.
         
@@ -124,7 +133,7 @@ class CognitiveCore:
         self.state['mode'] = mode
         self.logger.info(f"Mode changed to: {mode}")
         
-    def get_status(self) -> Dict[str, Any]:
+    def get_status(self) -> dict[str, t.Any]:
         """
         Get current cognitive core status.
         

@@ -1,7 +1,9 @@
 """Dialectical reasoning engine for balanced decision-making."""
 
+from __future__ import annotations
+
+import typing as t
 from dataclasses import dataclass
-from typing import Any, Dict, List, Optional
 import logging
 
 
@@ -10,7 +12,7 @@ class Argument:
     """Represents a logical argument."""
     
     position: str
-    evidence: List[str]
+    evidence: list[str]
     confidence: float
     reasoning: str
 
