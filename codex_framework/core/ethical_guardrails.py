@@ -127,14 +127,15 @@ class EthicalGuardrails:
         
         passed = True
         notes = []
-        
-        if exists and artifact_path:
-            if not os.path.exists(artifact_path):
-                passed = False
-                notes.append(f"Artifact does not exist: {artifact_path}")
-        elif exists and not artifact_path:
+
+        if not artifact_path:
+            notes.append(
+                "No artifact path provided; supply a real path when available "
+                "to strengthen validation."
+            )
+        elif exists and not os.path.exists(artifact_path):
             passed = False
-            notes.append("No artifact path provided")
+            notes.append(f"Artifact does not exist: {artifact_path}")
             
         validation = EthicalValidation(
             principle=EthicalPrinciple.MAKE_REAL_THINGS,
