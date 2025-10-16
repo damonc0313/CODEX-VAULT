@@ -1,0 +1,45 @@
+{
+  "c_flags": "tools=local-only;recursion=3;token_budget=hard;constraint_tier=B;attestation=amk_v0_3",
+  "summary": "- Installed pytest-cov and networkx so pytest --cov hooks succeed.\n- Pytest suite now passes with coverage report collected.\n- Logged dependency heuristics and advanced GC-005 attestation catalyst.",
+  "plan": [
+    "Install runtime dependencies from requirements.txt.",
+    "Execute pytest -q to confirm clean run with coverage output.",
+    "Update HPL and SYM with dependency attestation plus next catalyst."
+  ],
+  "agent_blocks": {
+    "Gamma": "Executed pip install workflow to pull pytest-cov and networkx before rerunning tests.",
+    "Delta": "Audited pyproject addopts and system imports to prove dependency necessity and lock Tier-B.",
+    "Epsilon": "Narrated the remediation path and attested that coverage signals now propagate without gaps."
+  },
+  "synthesis": "Prime reconciled Γ's urgency to rerun pytest with Δ's requirement for dependency proof by enforcing installs logged in H-005, enabling a Tier-B upgrade.",
+  "ontology_ledger": [
+    "[AGENT:Gamma]-<EXECUTES>- [PROCESS:pip-install]",
+    "[PROCESS:pip-install]-<PRODUCES>- [OBJECT:dependency-bundle]",
+    "[OBJECT:dependency-bundle]-<ENABLES>- [PROCESS:pytest-suite]",
+    "[PROCESS:pytest-suite]-<PRODUCES>- [CONCEPT:coverage-attestation]"
+  ],
+  "hpl_write": [
+    {
+      "id": "H-005",
+      "principle": "Install coverage and graph dependencies via requirements.txt before executing pytest cycles.",
+      "origin": "S6-BOOTRUN-R2",
+      "status": "ACTIVE"
+    }
+  ],
+  "scores": {"logic": 12, "resonance": 4},
+  "sym": {
+    "prev_nonce8": "39108275",
+    "nonce8": "9233140b",
+    "entries": [
+      {"stage": "S3-R2", "agent": "Γ", "decision": "Installed pytest-cov and networkx prior to rerunning tests."},
+      {"stage": "S4-R2", "agent": "Δ", "decision": "Confirmed pytest -q completes with coverage table."},
+      {"stage": "S6-R2", "agent": "Prime", "decision": "Recorded heuristic H-005 for dependency attestation."}
+    ]
+  },
+  "next_catalyst": "GC-005",
+  "artifacts": [
+    "codex/hpl.jsonl",
+    "codex/sym.log",
+    "codex/outputs/expand.json"
+  ]
+}
