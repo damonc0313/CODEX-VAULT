@@ -1,0 +1,4 @@
+# Bootstrap requirements for Codex prompt software workflows
+pytest
+pytest-cov
+networkx

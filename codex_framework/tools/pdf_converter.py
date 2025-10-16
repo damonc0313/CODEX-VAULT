@@ -20,12 +20,21 @@ def convert_pdf_to_text(pdf_path: Path) -> str:
         
         reader = PdfReader(str(pdf_path))
         text_content = []
-        
+        logger = logging.getLogger(__name__)
+
         for page_num, page in enumerate(reader.pages, 1):
             text = page.extract_text()
+            if not text:
+                logger.debug(
+                    "Page %s of %s contained no extractable text.",
+                    page_num,
+                    pdf_path,
+                )
+                continue
+
             if text.strip():
                 text_content.append(f"--- Page {page_num} ---\n{text}\n")
-                
+
         return "\n".join(text_content)
         
     except ImportError:
