@@ -2,3 +2,6 @@
 {"synthesis": 100, "domain_a": "economics", "domain_b": "biology", "novel_pattern": "Pattern_100", "timestamp": "2025-10-17T21:35:07.557737"}
 {"synthesis": 150, "domain_a": "philosophy", "domain_b": "economics", "novel_pattern": "Pattern_150", "timestamp": "2025-10-17T21:35:57.588335"}
 {"synthesis": 200, "domain_a": "neuroscience", "domain_b": "biology", "novel_pattern": "Pattern_200", "timestamp": "2025-10-17T21:36:47.616245"}
+{"synthesis": 250, "domain_a": "neuroscience", "domain_b": "neuroscience", "novel_pattern": "Pattern_250", "timestamp": "2025-10-17T21:37:37.639863"}
+{"synthesis": 300, "domain_a": "philosophy", "domain_b": "biology", "novel_pattern": "Pattern_300", "timestamp": "2025-10-17T21:38:27.667533"}
+{"synthesis": 350, "domain_a": "sociology", "domain_b": "neuroscience", "novel_pattern": "Pattern_350", "timestamp": "2025-10-17T21:39:17.697347"}
