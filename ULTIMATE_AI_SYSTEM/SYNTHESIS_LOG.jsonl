@@ -5,3 +5,4 @@
 {"synthesis": 250, "domain_a": "neuroscience", "domain_b": "neuroscience", "novel_pattern": "Pattern_250", "timestamp": "2025-10-17T21:37:37.639863"}
 {"synthesis": 300, "domain_a": "philosophy", "domain_b": "biology", "novel_pattern": "Pattern_300", "timestamp": "2025-10-17T21:38:27.667533"}
 {"synthesis": 350, "domain_a": "sociology", "domain_b": "neuroscience", "novel_pattern": "Pattern_350", "timestamp": "2025-10-17T21:39:17.697347"}
+{"synthesis": 400, "domain_a": "computer_science", "domain_b": "philosophy", "novel_pattern": "Pattern_400", "timestamp": "2025-10-17T21:40:07.724860"}
