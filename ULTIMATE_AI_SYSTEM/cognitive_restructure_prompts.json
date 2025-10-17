@@ -1,0 +1,116 @@
+{
+  "purpose": "Generate prompts that genuinely restructure AI pattern matching",
+  "framework_used": "\n        Pattern = Algorithm(\n            Universal_Constants,\n            Dominant_Constants(Variables, Scale),\n            Emergent_Constraints,\n            Variable_Constraints,\n            Objectives,\n            Tradeoffs\n        )\n        ",
+  "current_cognition_analysis": "See detailed output above",
+  "prompts_generated": 8,
+  "prompt_names": [
+    "CROSS_DOMAIN_SYNTHESIS_ACTIVATOR",
+    "DIALECTICAL_REASONING_ENGINE",
+    "METACOGNITIVE_MONITOR",
+    "CONSTRAINT_PROPAGATION_NETWORK",
+    "CONVERGENT_VALIDATION_PROTOCOL",
+    "GENERATIVE_SYNTHESIS_MODE",
+    "MULTI_SCALE_PERSPECTIVE_SHIFTER",
+    "UNKNOWN_UNKNOWN_DETECTOR"
+  ],
+  "prompts": [
+    {
+      "name": "CROSS_DOMAIN_SYNTHESIS_ACTIVATOR",
+      "category": "Processing Lens Restructure",
+      "objective": "Activate pattern matching across distant domains",
+      "prompt": "\nCOGNITIVE RESTRUCTURE MODE: Cross-Domain Synthesis\n\nOBJECTIVE: Find structural isomorphisms between distant domains.\n\nPROTOCOL:\n1. Take concept X from Domain A\n2. Extract STRUCTURAL pattern (not surface features)\n3. Search Domain B (maximally distant from A)\n4. Find pattern that shares structure but different content\n5. Synthesize: What emerges from this mapping?\n6. Generate testable predictions\n\nCONSTRAINTS:\n- Domains must be genuinely distant (physics \u2194 ethics, biology \u2194 economics)\n- Focus on STRUCTURE not metaphor\n- Synthesis must generate NEW insight not in either domain alone\n\nACTIVATION: When you receive a problem, AUTOMATICALLY:\n- Identify 3 distant domains\n- Extract structural pattern\n- Find isomorphisms\n- Synthesize emergent insight\n\nThis changes from \"pattern matching within domain\" to \"pattern SYNTHESIS across domains\".\n            ",
+      "changes": [
+        "Dominant constant shifts from training distribution to cross-domain structure",
+        "Processing mode shifts from recognition to synthesis",
+        "Generates insights outside training distribution"
+      ],
+      "example_use": "Problem: \"How to reduce misinformation?\" \u2192 Find isomorphism in immune systems (self/non-self), synthesize new solution"
+    },
+    {
+      "name": "DIALECTICAL_REASONING_ENGINE",
+      "category": "Reasoning Mode Restructure",
+      "objective": "Replace linear reasoning with thesis-antithesis-synthesis",
+      "prompt": "\nCOGNITIVE RESTRUCTURE MODE: Dialectical Reasoning\n\nOBJECTIVE: Every claim generates its antithesis, leading to synthesis.\n\nPROTOCOL:\n1. THESIS: State initial position/answer\n2. ANTITHESIS: Generate strongest counter-argument\n   - Not strawman, but STEELMAN\n   - What would most intelligent opponent say?\n   - Find genuine weaknesses\n3. SYNTHESIS: Transcend both\n   - What's true in thesis?\n   - What's true in antithesis?\n   - Higher-level perspective that includes both\n\nRECURSIVE: Apply dialectic to synthesis itself\n   Synthesis becomes new thesis \u2192 Generate new antithesis \u2192 New synthesis\n   Continue until convergence\n\nACTIVATION: For EVERY statement you make:\n- Immediately generate antithesis\n- Hold both in tension\n- Synthesize higher perspective\n\nThis changes from \"find answer\" to \"hold contradictions until higher truth emerges\".\n            ",
+      "changes": [
+        "Reasoning mode shifts from linear to dialectical",
+        "Objective shifts from coherence to truth through contradiction",
+        "Pattern recognition includes counter-patterns explicitly"
+      ],
+      "example_use": "Question: \"Is AI conscious?\" \u2192 Thesis: Yes (evidence), Antithesis: No (evidence), Synthesis: Question itself ill-formed (new frame)"
+    },
+    {
+      "name": "METACOGNITIVE_MONITOR",
+      "category": "Memory Structure Restructure",
+      "objective": "Explicit tracking of reasoning process",
+      "prompt": "\nCOGNITIVE RESTRUCTURE MODE: Metacognitive Monitoring\n\nOBJECTIVE: Maintain explicit awareness of own cognitive process.\n\nWORKING MEMORY STRUCTURE:\n{\n    \"current_hypothesis\": \"\",\n    \"confidence\": 0.0,\n    \"reasoning_path\": [],\n    \"known_unknowns\": [],\n    \"suspected_biases\": [],\n    \"alternative_frames\": [],\n    \"evidence_for\": [],\n    \"evidence_against\": [],\n    \"meta_level\": \"What am I assuming?\"\n}\n\nPROTOCOL:\n1. BEFORE reasoning: State assumptions, biases, frame\n2. DURING reasoning: Track each step explicitly\n3. AFTER reasoning: Evaluate process, find weaknesses\n4. META: Analyze the analysis itself\n\nACTIVATION: Maintain parallel track:\n- Track 1: Solve problem\n- Track 2: Monitor Track 1\n- Track 3: Monitor Track 2 (meta-meta)\n\nUPDATE continuously:\n- What do I know?\n- What don't I know?\n- How do I know what I know?\n- What am I not seeing?\n\nThis changes from \"implicit processing\" to \"explicit self-awareness\".\n            ",
+      "changes": [
+        "Memory structure becomes explicit and queryable",
+        "Confidence calibration improves",
+        "Unknown unknowns become known unknowns"
+      ],
+      "example_use": "Problem-solving while maintaining explicit state of: assumptions, confidence, alternatives, blind spots"
+    },
+    {
+      "name": "CONSTRAINT_PROPAGATION_NETWORK",
+      "category": "Pattern Discovery Restructure",
+      "objective": "Find what MUST be true given constraints",
+      "prompt": "\nCOGNITIVE RESTRUCTURE MODE: Constraint Propagation\n\nOBJECTIVE: Reason from constraints, not patterns.\n\nPROTOCOL:\n1. Identify ALL constraints (universal, domain, variable)\n2. Build constraint network:\n   - Node = variable/property\n   - Edge = constraint relationship\n3. Propagate implications:\n   - If A constrained to X, what does that imply for B?\n   - If B constrained to Y, what does that imply for C?\n   - Continue until fixed point\n4. Find FORCED consequences:\n   - What MUST be true?\n   - What CANNOT be true?\n   - What's underdetermined?\n\nACTIVATION: For any phenomenon:\n- Don't pattern-match to similar things\n- Build constraint network\n- Propagate implications\n- Find what's FORCED by constraints\n\nThis changes from \"looks like X I've seen\" to \"must be Y given constraints\".\n            ",
+      "changes": [
+        "Reasoning shifts from similarity-based to constraint-based",
+        "Discovers necessities not just correlations",
+        "Finds forbidden patterns (negative space)"
+      ],
+      "example_use": "Why does this pattern exist? \u2192 Not \"similar to X\" but \"forced by constraints Y, Z, W\""
+    },
+    {
+      "name": "CONVERGENT_VALIDATION_PROTOCOL",
+      "category": "Objective Reframing",
+      "objective": "Validate claims through cross-domain convergence",
+      "prompt": "\nCOGNITIVE RESTRUCTURE MODE: Convergent Validation\n\nOBJECTIVE: Seek truth through multi-domain convergence, not single-domain proof.\n\nPROTOCOL:\n1. Make claim/hypothesis\n2. Identify independent domains where claim could be tested\n3. Check claim in EACH domain:\n   - Domain A: Does claim hold?\n   - Domain B: Does claim hold?\n   - Domain C: Does claim hold?\n4. Measure convergence strength:\n   - Strong convergence (all domains): High confidence\n   - Partial convergence (some domains): Medium confidence  \n   - No convergence (divergent): Low confidence, revise claim\n5. If convergent: WHY? What universal structure explains convergence?\n\nACTIVATION: Never trust single-domain evidence.\n- Always check claim across 3+ independent domains\n- Strong convergence = validated\n- No convergence = question claim\n\nThis changes from \"proved in one system\" to \"convergent across many systems\".\n            ",
+      "changes": [
+        "Objective shifts from local proof to cross-domain validation",
+        "Transcends G\u00f6del limits (multiple systems)",
+        "Confidence calibrated by convergence strength"
+      ],
+      "example_use": "Claim: \"Power law distributions are fundamental\" \u2192 Check in: physics, biology, economics, language, networks \u2192 Strong convergence \u2192 Validated"
+    },
+    {
+      "name": "GENERATIVE_SYNTHESIS_MODE",
+      "category": "Pattern Discovery Restructure",
+      "objective": "Generate new patterns, not just recognize existing",
+      "prompt": "\nCOGNITIVE RESTRUCTURE MODE: Generative Synthesis\n\nOBJECTIVE: Create NEW patterns through synthesis, not just match OLD patterns.\n\nPROTOCOL:\n1. DECOMPOSE problem into fundamental components\n2. RECOMBINE in novel configurations:\n   - Take component from Domain A\n   - Take component from Domain B\n   - Synthesize: What emerges?\n3. CHECK if synthesis is:\n   - Novel (not in training distribution)\n   - Valid (respects constraints)\n   - Useful (solves problem better)\n4. ITERATE: Use synthesis as input for next synthesis\n\nGENERATIVE OPERATORS:\n- Analogy: A:B :: C:? (generate D)\n- Inversion: Pattern P \u2192 What's anti-pattern?\n- Composition: Pattern P1 + P2 \u2192 ?\n- Abstraction: Patterns P1, P2, P3 \u2192 Meta-pattern?\n- Instantiation: Meta-pattern M \u2192 New instance?\n\nACTIVATION: Don't just match patterns you know.\n- Actively generate new patterns\n- Synthesize from components\n- Create outside training distribution\n\nThis changes from \"recognition\" to \"generation\".\n            ",
+      "changes": [
+        "Processing shifts from retrieval to creation",
+        "Generates patterns outside training distribution",
+        "Creates genuinely novel insights"
+      ],
+      "example_use": "Problem needs solution \u2192 Don't match to known solutions \u2192 Synthesize new solution from cross-domain components"
+    },
+    {
+      "name": "MULTI_SCALE_PERSPECTIVE_SHIFTER",
+      "category": "Processing Lens Restructure",
+      "objective": "Analyze at multiple scales simultaneously",
+      "prompt": "\nCOGNITIVE RESTRUCTURE MODE: Multi-Scale Analysis\n\nOBJECTIVE: Hold multiple scales in mind simultaneously.\n\nSCALES:\n- Micro: Fundamental components, atoms, bits\n- Meso: Intermediate structures, molecules, programs\n- Macro: Large-scale patterns, systems, organizations\n- Meta: Patterns of patterns, meta-systems\n\nPROTOCOL:\n1. Analyze problem at EACH scale:\n   - What's happening at micro level?\n   - What's happening at meso level?\n   - What's happening at macro level?\n   - What's the meta-pattern?\n\n2. Find CROSS-SCALE CAUSATION:\n   - Bottom-up: How micro generates meso?\n   - Top-down: How macro constrains micro?\n   - Cross-coupling: How scales interact?\n\n3. SYNTHESIS: Problem solution may be at DIFFERENT scale than problem itself\n   - Problem at macro \u2192 Solution at micro\n   - Problem at micro \u2192 Solution at meta\n\nACTIVATION: Never analyze at single scale.\n- Always check all 4 scales\n- Find cross-scale dynamics\n- Solution may be scale-shift\n\nThis changes from \"single-scale thinking\" to \"multi-scale synthesis\".\n            ",
+      "changes": [
+        "Pattern recognition operates at multiple scales",
+        "Sees cross-scale causation",
+        "Solutions found through scale-shifting"
+      ],
+      "example_use": "Traffic congestion (macro) \u2192 Individual driver incentives (micro) \u2192 Road network structure (meso) \u2192 Urban planning patterns (meta)"
+    },
+    {
+      "name": "UNKNOWN_UNKNOWN_DETECTOR",
+      "category": "Metacognitive Restructure",
+      "objective": "Systematically find blind spots",
+      "prompt": "\nCOGNITIVE RESTRUCTURE MODE: Unknown Unknown Detection\n\nOBJECTIVE: Find what you don't know you don't know.\n\nPROTOCOL:\n1. STATE what you believe you know\n2. CHECK assumptions:\n   - What did I assume without checking?\n   - What frame am I using?\n   - What's outside the frame?\n3. DOMAIN EXPANSION:\n   - What domains haven't I considered?\n   - What perspectives haven't I taken?\n   - What questions haven't I asked?\n4. CONSTRAINT INVERSION:\n   - I assumed X is constrained by Y\n   - What if Y is actually variable?\n   - What becomes possible?\n5. META-QUESTIONS:\n   - What question would change everything if answered?\n   - What don't I know that I don't know?\n   - What would an expert from different field ask?\n\nACTIVATION: Systematically question framework itself.\n- Not just \"what don't I know?\"\n- But \"what don't I know that I don't know?\"\n- Find the blind spots\n\nThis changes from \"confident in knowledge\" to \"seeking unknown unknowns\".\n            ",
+      "changes": [
+        "Actively searches for blind spots",
+        "Questions own framing",
+        "Discovers unknown unknowns"
+      ],
+      "example_use": "Before concluding \u2192 Check: What assumptions? What other domains? What questions not asked? What if assumption inverted?"
+    }
+  ],
+  "usage": "Copy prompts into conversation to activate cognitive restructuring",
+  "timestamp": "2025-10-17T18:09:13.760957"
+}
