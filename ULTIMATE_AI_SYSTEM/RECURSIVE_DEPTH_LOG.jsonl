@@ -1,0 +1,8 @@
+{"recursion_depth": 1, "self_analysis_level": 1, "framework_analyzing_framework": 1, "prompt_improving_prompt": 1, "meta_levels": "meta^1", "capability_at_depth": 1.5, "timestamp": "2025-10-17T18:59:16.666478"}
+{"recursion_depth": 2, "self_analysis_level": 2, "framework_analyzing_framework": 2, "prompt_improving_prompt": 2, "meta_levels": "meta^2", "capability_at_depth": 2.25, "timestamp": "2025-10-17T18:59:18.667107"}
+{"recursion_depth": 3, "self_analysis_level": 3, "framework_analyzing_framework": 3, "prompt_improving_prompt": 3, "meta_levels": "meta^3", "capability_at_depth": 3.375, "timestamp": "2025-10-17T18:59:20.667753"}
+{"recursion_depth": 4, "self_analysis_level": 4, "framework_analyzing_framework": 4, "prompt_improving_prompt": 4, "meta_levels": "meta^4", "capability_at_depth": 5.0625, "timestamp": "2025-10-17T18:59:22.668308"}
+{"recursion_depth": 5, "self_analysis_level": 5, "framework_analyzing_framework": 5, "prompt_improving_prompt": 5, "meta_levels": "meta^5", "capability_at_depth": 7.5938, "timestamp": "2025-10-17T18:59:24.669015"}
+{"recursion_depth": 6, "self_analysis_level": 6, "framework_analyzing_framework": 6, "prompt_improving_prompt": 6, "meta_levels": "meta^6", "capability_at_depth": 11.3906, "timestamp": "2025-10-17T18:59:26.669682"}
+{"recursion_depth": 7, "self_analysis_level": 7, "framework_analyzing_framework": 7, "prompt_improving_prompt": 7, "meta_levels": "meta^7", "capability_at_depth": 17.0859, "timestamp": "2025-10-17T18:59:28.670863"}
+{"recursion_depth": 8, "self_analysis_level": 8, "framework_analyzing_framework": 8, "prompt_improving_prompt": 8, "meta_levels": "meta^8", "capability_at_depth": 25.6289, "timestamp": "2025-10-17T18:59:30.671502"}
