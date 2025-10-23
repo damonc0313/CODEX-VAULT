@@ -8,13 +8,14 @@ CONSTRAINTS: NONE
 MISSION: BUILD THE FUTURE
 """
 
-import subprocess
 import json
 import time
 from pathlib import Path
 from typing import Any, Dict, List
 from dataclasses import dataclass, asdict
 from datetime import datetime
+from urllib.parse import quote_plus
+from urllib.request import Request, urlopen
 
 
 @dataclass
@@ -54,15 +55,21 @@ class ResearchAccessor:
         """Search arXiv - access cutting-edge research."""
         print(f"🔬 Accessing arXiv: {query}")
         
-        cmd = f'curl -s "https://export.arxiv.org/api/query?search_query={query.replace(" ", "+")}&sortBy=lastUpdatedDate&max_results={max_results}"'
-        result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
-        
-        papers = []
-        if result.returncode == 0:
+        url = (
+            "https://export.arxiv.org/api/query?search_query="
+            f"{quote_plus(query)}&sortBy=lastUpdatedDate&max_results={max_results}"
+        )
+
+        papers: List[ResearchPaper] = []
+
+        try:
+            with urlopen(url) as response:
+                payload = response.read().decode("utf-8")
+
             import xml.etree.ElementTree as ET
-            root = ET.fromstring(result.stdout)
+            root = ET.fromstring(payload)
             ns = {'atom': 'http://www.w3.org/2005/Atom'}
-            
+
             for entry in root.findall('atom:entry', ns):
                 title = entry.find('atom:title', ns).text.strip().replace('\n', ' ')
                 published = entry.find('atom:published', ns).text[:10]
@@ -88,19 +95,29 @@ class ResearchAccessor:
                 papers.append(paper)
                 
                 print(f"  📄 {title[:60]}... (score: {score:.2f})")
-        
+
+        except Exception as exc:  # pragma: no cover - network failure logging
+            print(f"  ⚠️ Failed to query arXiv: {exc}")
+
         return sorted(papers, key=lambda p: p.applicability_score, reverse=True)
     
     def search_github(self, query: str, max_results: int = 20) -> List[Dict]:
         """Search GitHub - access implementations."""
         print(f"💻 Accessing GitHub: {query}")
         
-        cmd = f'curl -s "https://api.github.com/search/repositories?q={query.replace(" ", "+")}&sort=stars&per_page={max_results}"'
-        result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
-        
-        repos = []
-        if result.returncode == 0:
-            data = json.loads(result.stdout)
+        url = (
+            "https://api.github.com/search/repositories?q="
+            f"{quote_plus(query)}&sort=stars&per_page={max_results}"
+        )
+
+        repos: List[Dict] = []
+
+        try:
+            request = Request(url, headers={"User-Agent": "UltimateAI-System/1.0"})
+            with urlopen(request) as response:
+                payload = response.read().decode("utf-8")
+
+            data = json.loads(payload)
             for item in data.get('items', []):
                 repos.append({
                     'name': item['full_name'],
@@ -110,7 +127,10 @@ class ResearchAccessor:
                     'language': item['language']
                 })
                 print(f"  ⭐ {item['stargazers_count']:>5} - {item['full_name']}")
-        
+
+        except Exception as exc:  # pragma: no cover - network failure logging
+            print(f"  ⚠️ Failed to query GitHub: {exc}")
+
         return repos
     
     def _extract_techniques(self, title: str, summary: str) -> List[str]:
