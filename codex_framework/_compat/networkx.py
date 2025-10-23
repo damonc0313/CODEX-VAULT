@@ -124,7 +124,7 @@ class DiGraph:
                 node, attr_dict = item[0], dict(item[1])
             else:
                 node, attr_dict = item, {}
-            merged_attrs = {**attr_dict, **common_attrs}
+            merged_attrs = {**common_attrs, **attr_dict}
             if node is not None:
                 self.add_node(t.cast(_Hashable, node), **merged_attrs)
 
@@ -150,7 +150,7 @@ class DiGraph:
         for edge in ebunch_to_add:
             if len(edge) == 3 and isinstance(edge[2], dict):
                 u, v, attr_dict = edge
-                attrs = {**attr_dict, **common_attrs}
+                attrs = {**common_attrs, **attr_dict}
             elif len(edge) == 2:
                 u, v = edge  # type: ignore[misc]
                 attrs = dict(common_attrs)
